@@ -16,7 +16,6 @@ export function Countries ({ countries, changeFilters }) {
                   <img 
                     src={country.flag} 
                     alt={`Flag of ${country.name}`} 
-                    loading="lazy" 
                   />
                   <section className='countries-info'>
                     <h1>{country.name}</h1>

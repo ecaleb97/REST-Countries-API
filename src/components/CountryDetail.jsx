@@ -17,7 +17,7 @@ export function CountryDetail ({ countries }) {
       </Link>
       <div className="country-details">
         <div className="image-container">
-          <img src={country.flag} alt="" loading="lazy" />
+          <img src={country.flag} alt={`Flag of ${country.name}`}/>
         </div>
         <section className="info-container">
           <h2>{country.name}</h2>
