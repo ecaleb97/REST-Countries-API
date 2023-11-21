@@ -7,6 +7,7 @@ export function Countries ({ countries, changeFilters }) {
   return (
     <main className="countries">
       <Filters onChange={changeFilters} />
+      {!countries.length && <p className="no-results">No countries found</p>}
       <ul>
         {
           countries?.map(country => {

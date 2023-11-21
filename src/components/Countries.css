@@ -7,6 +7,11 @@
   justify-content: center;
 }
 
+.no-results {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
 .countries ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
