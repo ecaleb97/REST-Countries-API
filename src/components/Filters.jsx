@@ -26,7 +26,7 @@ export function Filters ({ onChange }) {
   }
 
   const options = [
-    { value: 'all', label: 'All countries' },
+    { value: '', label: 'All countries' },
     { value: 'Africa', label: 'Africa' },
     { value: 'Americas', label: 'America' },
     { value: 'Asia', label: 'Asia' },
