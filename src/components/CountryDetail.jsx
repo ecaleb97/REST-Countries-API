@@ -7,8 +7,6 @@ export function CountryDetail ({ countries }) {
   const { countryName } = useParams()
   const country = countries.find(country => country.name === countryName)
 
-  console.log(country)
-
   return (
     <div className="details-container">
       <Link className="back" to={`/`}>
